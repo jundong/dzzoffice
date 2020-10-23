@@ -37,12 +37,8 @@ INSERT INTO `dzz_app_relative` VALUES(9, 9, 1);
 --
 -- 转存表中的数据 `dzz_connect`
 --
-INSERT INTO `dzz_connect` VALUES('百度网盘', '', '', 'pan', 'baiduPCS', '', 0, 'connect_pan', '', 10);
-INSERT INTO `dzz_connect` VALUES('阿里云存储', '', '', 'storage', 'ALIOSS', '', 2, 'connect_storage', '', 0);
 INSERT INTO `dzz_connect` VALUES('企业盘', '', '', 'local', 'dzz', '', 2, '', '', -2);
 INSERT INTO `dzz_connect` VALUES('FTP', '', '', 'ftp', 'ftp', '', 2, 'connect_ftp', '', 0);
-INSERT INTO `dzz_connect` VALUES('七牛云存储', '', '', 'storage', 'qiniu', '', 2, 'connect_storage', '', 0);
-INSERT INTO `dzz_connect` VALUES('OneDrive', '', '', 'pan', 'OneDrive', '', 0, 'connect_onedrive', '', 0);
 INSERT INTO `dzz_connect` VALUES('本地磁盘', '', '', 'disk', 'disk', '', 1, 'connect_disk', '', -1);
 
 --
